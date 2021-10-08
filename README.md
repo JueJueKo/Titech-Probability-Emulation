@@ -1,2 +1,2 @@
-# Titech-Probability-Emujlation
-MATLAB Scrips for the course assignment
+# Titech-Probability-Emulation
+MATLAB Scripts for the course assignment
