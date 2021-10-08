@@ -1,0 +1,30 @@
+>> sim_2nd
+
+ans =
+
+     0
+
+>> sim_2nd
+
+ans =
+
+   8.0000e-06
+
+>> sim_2nd
+
+ans =
+
+   9.4000e-04
+
+>> sim_2nd
+
+ans =
+
+   8.0000e-04
+
+>> sim_2nd
+>> sim_2nd
+
+ans =
+
+   8.2333e-04
