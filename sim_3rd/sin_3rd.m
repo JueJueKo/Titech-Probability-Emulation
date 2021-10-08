@@ -1,13 +1,15 @@
-head = [1:50].';
+ropenum = 50;
+head = [1:ropenum].';
 round = 1000000;
 count = 0;
 
 for j = 1:round
-    tail = randperm(50).';
+    tail = randperm(ropenum).';
     state = [head,tail];
+    state = randomize(state);
     ite = 0;
     sum1 = sum(state(:,1));
-    while ite < 50
+    while ite < ropenum
         ite=ite+1;
         if state(ite,1)~=0
             state= findloop(state,ite);
@@ -17,3 +19,4 @@ for j = 1:round
 end
 
 expta = count / round
+
