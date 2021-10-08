@@ -11,7 +11,7 @@ function state = randomize(instate)
       temp = instate(row1,col1);
       instate(row1,col1) = instate(row2,col2);
       instate(row2,col2) = temp;
-    end
+      end
 
     state = instate;
 
